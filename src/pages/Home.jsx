@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar/Sidebar'
 import Header from '../components/Header/Header'
+import ChatList from './ChatList'
 
 function Home() {
   return (
@@ -13,8 +14,8 @@ function Home() {
                 <Header />
             </div>
             <div className='main-chat-window h-[87vh] flex bg-[#0C1525] text-white'>
-                <div className="text-generator-left-bar w-1/5">
-                <h1>text-generator-left-bar</h1>
+                <div className="text-generator-left-bar w-1/3 flex justify-center border-r border-gray-800">
+                <ChatList />
                 </div>
                 <div className='main-playground-right-bar w-4/5'>
                 <h1>main-playground-right-bar</h1>

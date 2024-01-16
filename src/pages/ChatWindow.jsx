@@ -4,50 +4,29 @@ import { LuSendHorizonal } from "react-icons/lu";
 function ChatWindow() {
   return (
     <div className="p-3 flex flex-col justify-between h-full space-y-4">
-      <div className="overflow-y-scroll px-8 text-justify">
+      <div className="overflow-y-scroll px-8 text-justify space-y-10 flex flex-col">
         <h1>Chats</h1>
-        <br />
-        <p>
+        <p className="bg-[#1A2232] p-2 max-w-2xl self-end ml-auto">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+          voluptas explicabo quasi corporis!
+        </p>
+        <p className="bg-[#1A2232] p-2 max-w-2xl self-start">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
           voluptas explicabo quasi corporis! Sit ex vero accusamus veniam,
           blanditiis minima! Maiores facilis, aspernatur quo laborum ratione
           cupiditate dignissimos unde repellat aliquid dolor nesciunt dolorum
           inventore maxime quisquam est architecto veritatis pariatur dolores
           voluptatum. 
-          <br /><br /><br />
-          Incidunt praesentium laudantium, suscipit aperiam quis
-          vero atque deserunt necessitatibus vitae voluptatum cupiditate impedit
-          neque! Corporis non in quod enim praesentium eius temporibus soluta
-          corrupti sit, eligendi consequuntur nemo deserunt ducimus magnam
-          commodi aperiam iure quasi aliquid.
-          <br /><br /><br />
-          Alias, error unde dolor amet deserunt nostrum
-          enim architecto asperiores numquam corrupti, ea delectus praesentium
-          libero, aliquam accusamus quibusdam debitis fugit ipsum maiores animi
-          placeat distinctio porro corporis soluta? Doloribus possimus adipisci
-          et autem assumenda aut, pariatur fugiat doloremque debitis voluptas,
-          soluta cum magnam? Porro ullam optio eos quisquam sequi quod. Vero
-          voluptatum odio pariatur nemo ad delectus atque repudiandae, eligendi
-          quis maiores illo at recusandae. 
-          <br /><br /><br />
-          Nemo, ratione! A similique aperiam,
-          impedit maiores nesciunt eum. Sit, sint repudiandae, corporis corrupti
-          culpa inventore minus, recusandae rem quis laboriosam expedita debitis
-          dignissimos accusamus. Facere fuga, tenetur voluptates soluta a
-          voluptatum ducimus reiciendis officiis quidem possimus fugiat aliquam
-          similique enim molestiae repellat commodi blanditiis rerum neque
-          quaerat aperiam voluptatem! Eligendi ut unde aliquid doloremque odit
-          quis eum dolorem nihil nulla quam? Fugit numquam delectus, quam
-          dolorum fuga quidem voluptas vel, voluptates, eveniet tempore
-          explicabo voluptate rerum officia fugiat laborum recusandae neque
-          earum assumenda odit. 
-          <br /><br /><br />
-          Quibusdam accusantium, libero temporibus omnis rem architecto dicta voluptatibus
-          reprehenderit! Deserunt voluptatibus quos saepe nemo est earum
-          molestiae aperiam soluta voluptatem expedita! Repudiandae laboriosam
-          odit iusto doloribus vero itaque animi cumque maiores, tempore
-          recusandae voluptate ullam optio sequi distinctio dolorum corrupti,
-          accusamus eum ratione minus consectetur ad quos reiciendis?
+        </p>
+        <p className="bg-[#1A2232] p-2 max-w-2xl self-end ml-auto">
+          Lorem ipsum dolor sit
+        </p>
+        <p className="bg-[#1A2232] p-2 w-full text-left max-w-96 self-start">
+          Lorem ipsum dolor sit amet consectetu.
+        </p>
+        <p className="bg-[#1A2232] p-2 max-w-2xl self-end ml-auto">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+          voluptas explicabo quasi corporis! Sit ex vero accusamus veniam,
         </p>
       </div>
       <div className="pt-2 pb-3 px-8">

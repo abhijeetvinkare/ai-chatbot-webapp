@@ -10,10 +10,10 @@ import { MdOutlineLogout } from "react-icons/md";
 
 function Sidebar() {
   return (
-    <div className='text-center h-full'>
-        <div>
-            <img className='w-14 h-14 m-3' src={logo} alt="" />
-            <h5 className='mt-[-5px]'>ChatX</h5>
+    <div className='text-center min-h-screen bg-[#1A2232] text-white'>
+        <div className='p-3'>
+            <img className='w-16 h-14 mt-2' src={logo} alt="" />
+            <h5 className='mt-[5px]'>ChatX</h5>
         </div>
         <div className='flex flex-col justify-center items-center mt-12'>
         <RxDashboard size={25} className='m-3 my-4 cursor-pointer'/>

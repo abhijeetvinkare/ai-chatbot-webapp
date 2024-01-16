@@ -12,7 +12,7 @@ function Home() {
             <div>
                 <Header />
             </div>
-            <div className='main-chat-window flex bg-[#0C1525]'>
+            <div className='main-chat-window h-[87vh] flex bg-[#0C1525] text-white'>
                 <div className="text-generator-left-bar w-1/5">
                 <h1>text-generator-left-bar</h1>
                 </div>

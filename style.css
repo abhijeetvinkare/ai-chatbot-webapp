@@ -5,8 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #1A2232;
-    color: white;
 }
 html{
     scroll-behavior: smooth;

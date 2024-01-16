@@ -40,7 +40,7 @@ const Dropdown2 = () => {
                 <div className='relative inline-block text-left'>
                   <button
                     onClick={() => setDropdownOpen(!dropdownOpen)}
-                    className={`bg-[#1E1F26] flex items-center rounded-[5px] px-5 py-[13px] text-base font-medium text-white`}
+                    className={`flex items-center rounded-[5px] px-5 py-[13px] text-base font-medium text-white`}
                   >
                     <img src={avtar} alt="" className="w-16 rounded-full"/>
                     <span>
@@ -57,16 +57,14 @@ const Dropdown2 = () => {
                     </span>
                   </button>
                   <div
-                    className={`bg-[#1E1F26] shadow-1 dark:shadow-box-dark absolute left-0 z-40 mt-2 w-full rounded-md py-[10px] transition-all ${
+                    className={`bg-[#1A2232] shadow-1 dark:shadow-box-dark absolute left-0 z-40 mt-1 ml-2 w-full rounded-md py-[10px] transition-all ${
                       dropdownOpen
                         ? 'top-full opacity-100 visible'
                         : 'top-[110%] invisible opacity-0'
                     }`}
                   >
-                    <DropdownItem label='Dashboard' href='/#' />
-                    <DropdownItem label='Preview' href='/#' />
-                    <DropdownItem label='Button' href='/#' />
-                    <DropdownItem label='Subscribe' href='/#' />
+                    <DropdownItem label='Profile' href='/#' />
+                    <DropdownItem label='Logout' href='/#' />
                   </div>
                 </div>
               </div>

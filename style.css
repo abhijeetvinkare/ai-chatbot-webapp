@@ -35,3 +35,26 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+
+  @media (max-width: 850px) {
+    .text-generator-left-bar {
+      display: none !important;
+    }
+  }
+
+  @media (max-width: 850px) {
+    .main-playground-right-bar{
+      width: 100% !important;
+    }
+  }
+
+  @media (max-width: 730px) {
+    .input-container{
+      display: none !important;
+    }
+  }
+
+
+
+  
+  

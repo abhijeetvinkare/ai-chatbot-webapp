@@ -7,7 +7,7 @@ import ChatWindow from './ChatWindow'
 function Home() {
   return (
     <div className='flex'>
-        <div className='sidebar-container-left'>
+        <div className='sidebar-container-left hidden lg:block'>
             <Sidebar />
         </div>
         <div className='main-container-right w-full'>

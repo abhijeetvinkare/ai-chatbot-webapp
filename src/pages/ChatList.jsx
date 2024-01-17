@@ -5,7 +5,7 @@ import { MdOutlineBackspace } from "react-icons/md";
 
 function ChatList() {
   return (
-    <div className='w-full px-7 flex flex-col justify-between h-full'>
+    <div className='w-full px-7 flex flex-col justify-between h-full chat-list'>
         <div>
         <h1 className='text-2xl py-8 font-bold'>Text Generator</h1>
         <div className="flex space-y-4 flex-col">

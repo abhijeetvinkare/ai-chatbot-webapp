@@ -6,7 +6,7 @@ import Dropdown2 from "../Buttons/Dropdown2";
 function Header() {
   return (
     <div className="flex justify-between items-center pt-2 pb-1">
-      <div className="mx-7 text-white"><h1 className="font-bold text-3xl">CHAT A.I.</h1></div>
+      <div className="mx-7 text-white"><h1 className="font-bold text-3xl heading-title">CHAT A.I.</h1></div>
       <div className="flex items-center input-container">
         <form action="/search" className="w-full min-w-96">
           <div className="relative">

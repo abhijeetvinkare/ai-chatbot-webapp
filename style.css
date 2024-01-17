@@ -48,12 +48,19 @@ body {
     }
   }
 
+ 
+
   @media (max-width: 730px) {
     .input-container{
       display: none !important;
     }
   }
 
+  @media (max-width: 380px) {
+    .heading-title{
+      font-size: 1.6rem !important;
+    }
+  }
 
 
   

@@ -40,7 +40,7 @@ const Dropdown2 = () => {
                 <div className='relative inline-block text-left'>
                   <button
                     onClick={() => setDropdownOpen(!dropdownOpen)}
-                    className={`flex items-center rounded-[5px] px-5 py-[13px] text-base font-medium text-white`}
+                    className={`dropwoin-btn flex items-center rounded-[5px] px-5 py-[13px] text-base font-medium text-white`}
                   >
                     <img src={avtar} alt="" className="w-16 rounded-full"/>
                     <span>

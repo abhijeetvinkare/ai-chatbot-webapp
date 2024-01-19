@@ -1,67 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800&display=swap");
 
 /*=============== BASE ===============*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 /* Typography */
 body {
-    font-family: 'Kumbh Sans', sans-serif;
-    background: #0C1525;
+  font-family: "Kumbh Sans", sans-serif;
+  background: #0c1525;
 }
-
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #1A2232;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1a2232;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 850px) {
+  .text-generator-left-bar {
+    display: none !important;
   }
 
-  @media (max-width: 850px) {
-    .text-generator-left-bar {
-      display: none !important;
-    }
+  .main-playground-right-bar {
+    width: 100% !important;
   }
 
-  @media (max-width: 850px) {
-    .main-playground-right-bar{
-      width: 100% !important;
-    }
+  .dropwoin-btn {
+    margin-right: 0px !important;
+    padding-right: 0px !important;
   }
+}
 
- 
-
-  @media (max-width: 730px) {
-    .input-container{
-      display: none !important;
-    }
+@media (max-width: 730px) {
+  .input-container {
+    display: none !important;
   }
+}
 
-  @media (max-width: 380px) {
-    .heading-title{
-      font-size: 1.6rem !important;
-    }
+@media (max-width: 380px) {
+  .heading-title {
+    font-size: 1.6rem !important;
   }
+}
 
+@media (max-width: 305px) {
+  .heading-title {
+    font-size: 1.4rem !important;
+  }
+}
 
-  
-  
+@media (max-width: 280px) {
+  .heading-title {
+    font-size: 1.3rem !important;
+  }
+}

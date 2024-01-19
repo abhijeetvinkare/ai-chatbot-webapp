@@ -4,8 +4,7 @@ import { LuSendHorizonal } from "react-icons/lu";
 function ChatWindow() {
   return (
     <div className="p-3 flex flex-col justify-between h-full space-y-4">
-      <div className="overflow-y-scroll px-8 text-justify space-y-10 flex flex-col">
-        <h1>Chats</h1>
+      <div className="overflow-y-scroll px-8 py-4 text-justify space-y-10 flex flex-col">
         <p className="bg-[#1A2232] p-2 max-w-2xl self-end ml-auto">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
           voluptas explicabo quasi corporis!

@@ -1,6 +1,5 @@
 import React from "react";
 import { IoSearch } from "react-icons/io5";
-import { IoMdNotificationsOutline } from "react-icons/io";
 import Dropdown2 from "../Buttons/Dropdown2";
 
 function Header() {
